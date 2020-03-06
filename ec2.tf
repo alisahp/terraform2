@@ -11,8 +11,3 @@ resource "aws_instance" "web2" {
   key_name      = "${aws_key_pair.deployer.key_name}"
   
 }
-
-  tags = {
-    Name = "HelloWorld"
-  }
-}
