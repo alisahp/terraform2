@@ -1,6 +1,6 @@
 provider "aws" {
   region = "us-east-1"
-  tags =
+  tags = {
     Name        = "My bucket" 
     Environment = "Dev" 
   } 
